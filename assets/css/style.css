@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+.search {
+    /* Search */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px 30px 10px 15px;
+    gap: 18px;
+
+    width: 245px;
+    height: 39px;
+
+    background: #eaeaea;
+    border-radius: 12px;
+}
+
+.search input {
+    background-color: inherit;
+}
+
+.search input::placeholder {
+    width: 166px;
+    height: 19px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #959494;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
