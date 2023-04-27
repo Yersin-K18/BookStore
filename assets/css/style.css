@@ -1,44 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
-
-.search {
-    /* Search */
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 10px 30px 10px 15px;
-    gap: 18px;
-
-    width: 245px;
-    height: 39px;
-
-    background: #eaeaea;
-    border-radius: 12px;
+* {
+    box-sizing: border-box;
 }
 
-.search input {
-    background-color: inherit;
+:root {
+    --primaty-color: #FFCE1A;
+    --text-color : #0D0842;
 }
 
-.search input::placeholder {
-    width: 166px;
-    height: 19px;
+html, body {
+    scroll-behavior: smooth;
+  }
+  
+html {
+      font-size: 62.5%;
+}
 
-    font-family: 'Nunito Sans';
-    font-style: normal;
+body {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #959494;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    font-size: 1.6rem;
+    font-family: "Poppins";
 }
+
+/* COMMON */
+.main-content {
+    width: 1438px;
+    max-width: calc(1438px - 100px);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 40px 7px 15px;
+    gap: 20px;
+    width: 170px;
+    height: 36px;
+    background: var(--primaty-color);
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+.text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+/* HEADER */
+.header .nav {
+    display: flex;
+    align-items: center;
+    padding: 35px 0 9px;
+}
+
+.header .action {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.header .profile {
+    margin-right: 30px;
+}
+
+.header .btn.cart-btn {
+    width: 146px;
+    height: 36px;   
+}
+
+/* MAIN */
+.main .landing-page {
+    display: flex;
+    margin-top: 70px;
+}
+
+.main .landing-left {
+    width: 550px;
+}
+
+.main .title {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 49px;
+    color: var(--text-color);
+}
+
+.main .desc {
+    margin: 30px 0 40px;
+    line-height: 20px;
+    color: var(--text-color);
+
+}
+
+.main .landing-right {
+    display: flex;
+    position: relative;
+    margin-left: 252px;
+}
+
+.landing-right .btt-1 {
+    width: 272.16px;
+    height: 378px;
+    object-fit: cover;
+    z-index: 2;
+    filter: drop-shadow(0px 57.8118px 23.3471px rgba(128, 0, 38, 0.01)) drop-shadow(0px 32.2412px 18.9px rgba(128, 0, 38, 0.05)) drop-shadow(0px 14.4529px 14.4529px rgba(128, 0, 38, 0.09)) drop-shadow(0px 3.33529px 7.78235px rgba(128, 0, 38, 0.1)) drop-shadow(0px 0px 0px rgba(128, 0, 38, 0.1));
+
+}
+
+.landing-right .btt-2 {
+    position: absolute;
+    left: 138.97px;
+    top: 8.28px;
+    width: 246.19px;
+    height: 341.93px;
+    z-index: 1;
+    filter: drop-shadow(-2.22353px 38.9118px 15.5647px rgba(0, 12, 102, 0.01)) drop-shadow(-1.11176px 22.2353px 13.3412px rgba(0, 12, 102, 0.05)) drop-shadow(-1.11176px 10.0059px 10.0059px rgba(0, 12, 102, 0.09)) drop-shadow(0px 2.22353px 5.55882px rgba(0, 12, 102, 0.1)) drop-shadow(0px 0px 0px rgba(0, 12, 102, 0.1));
+}
+
+.main .btt-3 {
+    position: absolute;
+    width: 214.16px;
+    height: 297.44px;
+    top: 24.97px;
+    left: 272.8px;
+    filter: drop-shadow(0px 44.4706px 17.7882px rgba(12, 0, 102, 0.01)) drop-shadow(0px 25.5706px 15.5647px rgba(12, 0, 102, 0.05)) drop-shadow(0px 11.1176px 11.1176px rgba(12, 0, 102, 0.09)) drop-shadow(0px 3.33529px 6.67059px rgba(12, 0, 102, 0.1)) drop-shadow(0px 0px 0px rgba(12, 0, 102, 0.1));
+}
+

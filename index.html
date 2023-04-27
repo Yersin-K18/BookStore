@@ -7,18 +7,51 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Book Store</title>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- FONT -->
+         <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css" /> -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <header>
-            <div class="search">
-                <img src="./assets/icons/searchIcon.svg" alt="" />
-                <input
-                    type="text"
-                    name="input"
-                    placeholder="What are you looking for ?"
-                />
+        <header class="header">
+            <div class="main-content">               
+                    <div class="nav">
+                        <div class="main-nav">
+                            <img src="./assets/icons/iconMenu.svg" alt="">
+                            <div class="box-search"></div>
+                        </div>
+                        <div class="action">
+                            <img src="./assets/icons/profileIcon.svg" alt="" class = "profile" >
+                            <img src="./assets/icons/favIcon.svg" alt="" class="fav">
+                        </div>
+                        <button class="btn cart-btn">
+                            <img src="./assets/icons/cartIcon.svg" alt="">                                
+                            <span class="text">Basket</span>
+                        </button>   
+                    </div>                                      
             </div>
         </header>
+        <!-- MAIN -->
+
+        <main class="main">
+            <div class="main-content">
+                <div class="landing-page">
+                    <!-- landing-left -->
+                    <div class="landing-left">
+                        <h1 class="title">New Releases This Week</h1>
+                        <p class="desc">It's time to update your reading list with some of the latest and greatest releases in the literary world. From heart-pumping thrillers to captivating memoirs, this week's new releases offer something for everyone</p>
+                        <button class="btn"><span class="text">Subscribe</span></button>
+                    </div>
+                    <!-- landing right -->
+                    <div class="landing-right"> 
+                        <img src="./assets/img/book1.png" alt="" class="btt-1">
+                        <img src="./assets/img/book2.png" alt="" class="btt-2">
+                        <img src="./assets/img/book3.png" alt="" class="btt-3">
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
