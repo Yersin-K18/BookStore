@@ -325,6 +325,10 @@ a {
 
 /*  NEWS */
 
+.news {
+    margin-top: 90px;
+}
+
 .info .body {
     display: flex;
     margin-top: 25px;
