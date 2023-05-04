@@ -9,9 +9,12 @@
         <title>Book Store</title>
         <!-- FONT -->
         <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css" /> -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header class="header fixed">
@@ -66,7 +69,7 @@
                         <!-- landing-left -->
                         <div class="landing-left">
                             <h1 class="title">New Releases This Week</h1>
-                            <p class="desc"linee-clamp line-2 break-all>
+                            <p class="desc" linee-clamp line-2 break-all>
                                 It's time to update your reading list with some
                                 of the latest and greatest releases in the
                                 literary world. From heart-pumping thrillers to
@@ -90,7 +93,7 @@
                             <img
                                 src="./assets/img/book3.png"
                                 alt=""
-                                class="btt-3"                     
+                                class="btt-3"
                             />
                         </div>
                     </div>
@@ -100,140 +103,45 @@
             <div class="top-seller">
                 <div class="box">
                     <div class="main-content">
-                    <h2 class="title">Top Sellers</h2>
-                    <select class="option">
-                        <option>Choose a genre</option>
-                        <option>Action</option>
-                        <option>Adventure</option>
-                        <option>Animation</option>
-                        <option>Biography</option>
-                        <option>Comedy</option>
-                        <option>Crime</option>
-                        <option>Documentary</option>
-                    </select>
-                    <div class="box-list">
-                        <div class="list-item">
-                            <!-- item1 -->
-                            <div class="item">
-                                <img src="./assets/img/item-1.jpg" alt="" class="thumb">
-                                <div class="info">
-                                    <h3 class="title-item line-clamp break-all">The Time Has Come</h3> 
-                                    <p class="desc linee-clamp line-2 break-all">Lindbergh's Pharmacy is an Athens, Georgia, institution</p>
-                                    <div class="price">
-                                        <span class="current-price">$ 27.89</span>
-                                        <span class="sale-price"><del>$ 30.99</del></span>                           
-                                    </div>
-                                    <button class="btn btn-item">
-                                        <div class="icon">
-                                            <svg
-                                                width="22"
-                                                height="24"
-                                                viewBox="0 0 22 24"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
-                                                    stroke="currentColor"
-                                                    stroke-width="1.5"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <span>Add to basket</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- item2 -->
-                            <div class="item">
-                                <img src="./assets/img/item-2.jpg" alt="" class="thumb">
-                                <div class="info">
-                                    <h3 class="title-item line-clamp break-all">I Want a Better </h3> 
-                                    <p class="desc linee-clamp line-2 break-all">With global warming projected to rocket </p>
-                                    <div class="price">
-                                        <span class="current-price">$ 26.99</span>
-                                        <span class="sale-price"><del>$ 29.99</del></span>                           
-                                    </div>
-                                    <button class="btn btn-item">
-                                        <div class="icon">
-                                            <svg
-                                                width="22"
-                                                height="24"
-                                                viewBox="0 0 22 24"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
-                                                    stroke="currentColor"
-                                                    stroke-width="1.5"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <span>Add to basket</span>
-    
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- item 3 -->
-                            <div class="item">
-                                <img src="./assets/img/item-3.jpg   " alt="" class="thumb">
-                                <div class="info">
-                                    <h3 class="title-item line-clamp break-all">The Time Has Come</h3> 
-                                    <p class="desc linee-clamp line-2 break-all ">Lindbergh's Pharmacy is an Athens, Georgia, institution</p>
-                                    <div class="price">
-                                        <span class="current-price">$ 27.89</span>
-                                        <span class="sale-price"><del>$ 30.99</del></span>                           
-                                    </div>
-                                    <button class="btn btn-item">
-                                        <div class="icon">
-                                            <svg
-                                                width="22"
-                                                height="24"
-                                                viewBox="0 0 22 24"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
-                                                    stroke="currentColor"
-                                                    stroke-width="1.5"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <span>Add to basket</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="./assets/icons/arrow-icon.svg" alt="" class="button-next">
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <!-- RECOMMENDED -->
-            <div class="recommended">
-                <div class="box">
-                    <div class="main-content">
-                        <h2 class="title">Recommended for you</h2>                    
+                        <h2 class="title">Top Sellers</h2>
+                        <select class="option">
+                            <option>Choose a genre</option>
+                            <option>Action</option>
+                            <option>Adventure</option>
+                            <option>Animation</option>
+                            <option>Biography</option>
+                            <option>Comedy</option>
+                            <option>Crime</option>
+                            <option>Documentary</option>
+                        </select>
                         <div class="box-list">
                             <div class="list-item">
                                 <!-- item1 -->
                                 <div class="item">
-                                    <img src="./assets/img/product-re1.jpg" alt="" class="thumb">
+                                    <img
+                                        src="./assets/img/item-1.jpg"
+                                        alt=""
+                                        class="thumb"
+                                    />
                                     <div class="info">
-                                        <h3 class="title-item line-clamp break-all">Pride and Protest</h3> 
-                                        <p class="desc linee-clamp line-2 break-all ">A woman goes head-to-head with the CEO of</p>
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            The Time Has Come
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            Lindbergh's Pharmacy is an Athens,
+                                            Georgia, institution
+                                        </p>
                                         <div class="price">
-                                            <span class="current-price">$ 15.50</span>
-                                            <span class="sale-price"><del>$ 18.50</del></span>                           
+                                            <span class="current-price"
+                                                >$ 27.89</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 30.99</del></span
+                                            >
                                         </div>
                                         <button class="btn btn-item">
                                             <div class="icon">
@@ -259,13 +167,30 @@
                                 </div>
                                 <!-- item2 -->
                                 <div class="item">
-                                    <img src="./assets/img/product-re2.jpg" alt="" class="thumb">
+                                    <img
+                                        src="./assets/img/item-2.jpg"
+                                        alt=""
+                                        class="thumb"
+                                    />
                                     <div class="info">
-                                        <h3 class="title-item line-clamp break-all">Forget a Mentor, Find a Sponsor </h3> 
-                                        <p class="desc linee-clamp line-2 break-all ">In this powerful yet practical book, economist and </p>
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            I Want a Better
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            With global warming projected to
+                                            rocket
+                                        </p>
                                         <div class="price">
-                                            <span class="current-price">$ 29.99</span>
-                                            <span class="sale-price"><del>$ 32.99</del></span>                           
+                                            <span class="current-price"
+                                                >$ 26.99</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 29.99</del></span
+                                            >
                                         </div>
                                         <button class="btn btn-item">
                                             <div class="icon">
@@ -286,24 +211,40 @@
                                                 </svg>
                                             </div>
                                             <span>Add to basket</span>
-        
                                         </button>
                                     </div>
                                 </div>
                                 <!-- item 3 -->
                                 <div class="item">
-                                    <img src="./assets/img/product-re3.jpg" alt="" class="thumb">
+                                    <img
+                                        src="./assets/img/item-3.jpg   "
+                                        alt=""
+                                        class="thumb"
+                                    />
                                     <div class="info">
-                                        <h3 class="title-item line-clamp break-all">The Time Has Come</h3> 
-                                        <p class="desc linee-clamp line-2 break-all ">Lindbergh's Pharmacy is an Athens, Georgia, institution</p>
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            The Time Has Come
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            Lindbergh's Pharmacy is an Athens,
+                                            Georgia, institution
+                                        </p>
                                         <div class="price">
-                                            <span class="current-price">$ 27.89</span>
-                                            <span class="sale-price"><del>$ 30.99</del></span>                           
+                                            <span class="current-price"
+                                                >$ 27.89</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 30.99</del></span
+                                            >
                                         </div>
                                         <button class="btn btn-item">
                                             <div class="icon">
                                                 <svg
-                                                    width="22" 
+                                                    width="22"
                                                     height="24"
                                                     viewBox="0 0 22 24"
                                                     fill="none"
@@ -324,47 +265,314 @@
                                 </div>
                             </div>
                             <div class="arrow">
-                                <img src="./assets/icons/arrow-icon.svg" alt="" class="button-next">
+                                <img
+                                    src="./assets/icons/arrow-icon.svg"
+                                    alt=""
+                                    class="button-next"
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+            <!-- RECOMMENDED -->
+            <div class="recommended">
+                <div class="box">
+                    <div class="main-content">
+                        <h2 class="title">Recommended for you</h2>
+                        <div class="box-list">
+                            <div class="list-item">
+                                <!-- item1 -->
+                                <div class="item">
+                                    <img
+                                        src="./assets/img/product-re1.jpg"
+                                        alt=""
+                                        class="thumb"
+                                    />
+                                    <div class="info">
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            Pride and Protest
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            A woman goes head-to-head with the
+                                            CEO of
+                                        </p>
+                                        <div class="price">
+                                            <span class="current-price"
+                                                >$ 15.50</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 18.50</del></span
+                                            >
+                                        </div>
+                                        <button class="btn btn-item">
+                                            <div class="icon">
+                                                <svg
+                                                    width="22"
+                                                    height="24"
+                                                    viewBox="0 0 22 24"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
+                                                        stroke="currentColor"
+                                                        stroke-width="1.5"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <span>Add to basket</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- item2 -->
+                                <div class="item">
+                                    <img
+                                        src="./assets/img/product-re2.jpg"
+                                        alt=""
+                                        class="thumb"
+                                    />
+                                    <div class="info">
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            Forget a Mentor, Find a Sponsor
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            In this powerful yet practical book,
+                                            economist and
+                                        </p>
+                                        <div class="price">
+                                            <span class="current-price"
+                                                >$ 29.99</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 32.99</del></span
+                                            >
+                                        </div>
+                                        <button class="btn btn-item">
+                                            <div class="icon">
+                                                <svg
+                                                    width="22"
+                                                    height="24"
+                                                    viewBox="0 0 22 24"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
+                                                        stroke="currentColor"
+                                                        stroke-width="1.5"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <span>Add to basket</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- item 3 -->
+                                <div class="item">
+                                    <img
+                                        src="./assets/img/product-re3.jpg"
+                                        alt=""
+                                        class="thumb"
+                                    />
+                                    <div class="info">
+                                        <h3
+                                            class="title-item line-clamp break-all"
+                                        >
+                                            The Time Has Come
+                                        </h3>
+                                        <p
+                                            class="desc linee-clamp line-2 break-all"
+                                        >
+                                            Lindbergh's Pharmacy is an Athens,
+                                            Georgia, institution
+                                        </p>
+                                        <div class="price">
+                                            <span class="current-price"
+                                                >$ 27.89</span
+                                            >
+                                            <span class="sale-price"
+                                                ><del>$ 30.99</del></span
+                                            >
+                                        </div>
+                                        <button class="btn btn-item">
+                                            <div class="icon">
+                                                <svg
+                                                    width="22"
+                                                    height="24"
+                                                    viewBox="0 0 22 24"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M1 1.5H3.22222L3.66667 3.83333M5.44444 13.1667H16.5556L21 3.83333H3.66667M5.44444 13.1667L3.66667 3.83333M5.44444 13.1667L2.89679 15.8417C2.19682 16.5767 2.69257 17.8333 3.68246 17.8333H16.5556M16.5556 17.8333C15.3283 17.8333 14.3333 18.878 14.3333 20.1667C14.3333 21.4553 15.3283 22.5 16.5556 22.5C17.7829 22.5 18.7778 21.4553 18.7778 20.1667C18.7778 18.878 17.7829 17.8333 16.5556 17.8333ZM7.66667 20.1667C7.66667 21.4553 6.67174 22.5 5.44444 22.5C4.21715 22.5 3.22222 21.4553 3.22222 20.1667C3.22222 18.878 4.21715 17.8333 5.44444 17.8333C6.67174 17.8333 7.66667 18.878 7.66667 20.1667Z"
+                                                        stroke="currentColor"
+                                                        stroke-width="1.5"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <span>Add to basket</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <img
+                                    src="./assets/icons/arrow-icon.svg"
+                                    alt=""
+                                    class="button-next"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- News -->
             <div class="news">
                 <div class="info">
                     <div class="main-content">
                         <h2 class="title">News</h2>
                         <div class="body">
-                        <!-- info left -->
-                           <div class="body-child">
+                            <!-- info left -->
+                            <div class="body-child">
                                 <div class="body-info">
-                                    <h3 class="info-title line-clamp brea">The Books You Need to Read in 2023</h3>
+                                    <h3 class="info-title line-clamp brea">
+                                        The Books You Need to Read in 2023
+                                    </h3>
                                     <span class="line"></span>
-                                    <p class="info-desc line-clamp line-4 break-all">his is the blog we know you've all been waiting for. We present the top 10 titles for 2023 in fiction, non-fiction and children's books; a glorious mix of masterful storytelling, compelling subject matter and page-turning thrill Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eos officiis consequatur consectetur tenetur esse dolor molestias nulla voluptatem quaerat quae quis earum necessitatibus ipsam molestiae reiciendis aliquam. Pariatur, excepturi!</p>
+                                    <p
+                                        class="info-desc line-clamp line-4 break-all"
+                                    >
+                                        his is the blog we know you've all been
+                                        waiting for. We present the top 10
+                                        titles for 2023 in fiction, non-fiction
+                                        and children's books; a glorious mix of
+                                        masterful storytelling, compelling
+                                        subject matter and page-turning thrill
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Perspiciatis, eos
+                                        officiis consequatur consectetur tenetur
+                                        esse dolor molestias nulla voluptatem
+                                        quaerat quae quis earum necessitatibus
+                                        ipsam molestiae reiciendis aliquam.
+                                        Pariatur, excepturi!
+                                    </p>
                                 </div>
                                 <div class="thumb-info">
-                                    <img src="./assets/img/new-1.jpg" alt="">
+                                    <img src="./assets/img/new-1.jpg" alt="" />
                                 </div>
-                           </div>
-                        <!-- info right -->
-                           <div class="body-child">
+                            </div>
+                            <!-- info right -->
+                            <div class="body-child">
                                 <div class="body-info">
-                                    <h3 class="info-title line-clamp break-all">February's Best Children's Books</h3>
+                                    <h3 class="info-title line-clamp break-all">
+                                        February's Best Children's Books
+                                    </h3>
                                     <span class="line"></span>
-                                    <p class="info-desc line-clamp line-4 break-all">Some of the finest children's authors currently writing have books publishing this month, from Natasha Farrant to Elle McNicoll and from Tahereh Mafi to Harriet Muncaster. Across all areas and age ranges there are plenty of fantastic titles Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vel ipsum sit. Laboriosam provident ipsum odit fuga modi qui doloremque consequatur odio, aut quas perferendis eos, assumenda ducimus officia architecto?</p>
+                                    <p
+                                        class="info-desc line-clamp line-4 break-all"
+                                    >
+                                        Some of the finest children's authors
+                                        currently writing have books publishing
+                                        this month, from Natasha Farrant to Elle
+                                        McNicoll and from Tahereh Mafi to
+                                        Harriet Muncaster. Across all areas and
+                                        age ranges there are plenty of fantastic
+                                        titles Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Aliquid
+                                        vel ipsum sit. Laboriosam provident
+                                        ipsum odit fuga modi qui doloremque
+                                        consequatur odio, aut quas perferendis
+                                        eos, assumenda ducimus officia
+                                        architecto?
+                                    </p>
                                 </div>
                                 <div class="thumb-info">
-                                    <img src="./assets/img/new-2.jpg" alt="">
+                                    <img src="./assets/img/new-2.jpg" alt="" />
                                 </div>
-                           </div>
-                        </div>                  
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="content">
+                <div class="main-content">
+                    <div class="top-footer">
+                        <div class="top-right">
+                            <div class="logo">
+                                <img src="./assets/icons/logo-footer.svg" alt="" />
+                            </div>
+                            <div class="feature">
+                                <ul class="list-feature">
+                                    <li>About</li>
+                                    <li>Features</li>
+                                    <li>Pricing</li>
+                                    <li>Gallery</li>
+                                    <li>Team</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top-left">
+                            <p class="desc">Subscribe to stay tuned for new product and latest updates. Let’s do it!</p>
+                            <form class="sub-form">
+                                <input type="text" placeholder="Enter your email address" name="search">
+                                <button type="submit" class="btn sub-btn">Subscribe</i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <span class="line"></span>
+                    <div class="bottom-footer">
+                        <div class="main-content">
+                            <div class="footer-bg">
+                                <div class="feature">
+                                    <ul class="list-feature">
+                                        <li>
+                                            <a href="#!">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Terms of Use</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Sales and Refunds</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Legal</a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <div class="social-media">
+                                    <div class="list-logo">
+                                        <img src="./assets/icons/instagram.svg" alt="">
+                                        <img src="./assets/icons/google-icon.svg" alt="">
+                                        <img src="./assets/icons/facebook-icon.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                
+            </div>
+        </footer>
     </body>
 </html>
