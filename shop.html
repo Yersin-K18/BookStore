@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Amado - Furniture Ecommerce Template | Home</title>
+    <title>Amado - Furniture Ecommerce Template | Shop</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -42,7 +42,6 @@
     <div class="main-content-wrapper d-flex clearfix">
 
         <!-- Mobile Nav (max width 767px)-->
-        
         <navlogo></navlogo>
         <!-- Header Area Start -->
         <header class="header-area clearfix">
@@ -63,57 +62,125 @@
         </header>
         <!-- Header Area End -->
 
-        <!-- Product Catagories Area Start -->
-        <div class="products-catagories-area clearfix">
-            <div class="amado-pro-catagory clearfix">
+        <div class="shop_sidebar_area">
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                   <category1></category1>
+            <!-- ##### Single Widget ##### -->
+            <div class="widget catagory mb-50">
+                <!-- Widget Title -->
+                <h6 class="widget-title mb-30">Catagories</h6>
+
+                <!--  Catagories  -->
+                <categorymenu></categorymenu>
+            </div>
+
+            <!-- ##### Single Widget ##### -->
+            <div class="widget brands mb-50">
+                <!-- Widget Title -->
+                <h6 class="widget-title mb-30">Brands</h6>
+
+                <div class="widget-desc">
+                    <!-- Single Form Check -->
+                    <singleform></singleform>
                 </div>
+            </div>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category2></category2>
-                </div>
+            <!-- ##### Single Widget ##### -->
+            <div class="widget color mb-50">
+                <!-- Widget Title -->
+                <h6 class="widget-title mb-30">Color</h6>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category3></category3>
-                </div>
+                <color></color>
+            </div>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category4></category4>
-                </div>
+            <!-- ##### Single Widget ##### -->
+            <div class="widget price mb-50">
+                <!-- Widget Title -->
+                <h6 class="widget-title mb-30">Price</h6>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category5></category5>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category6></category6>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category7></category7>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category8></category8>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category9></category9>
+                <div class="widget-desc">
+                    <div class="slider-range">
+                        <div data-min="10" data-max="1000" data-unit="$" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="10" data-value-max="1000" data-label-result="">
+                            <price></price>
+                        </div>
+                        <div class="range-price">$10 - $1000</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Product Catagories Area End -->
+
+        <div class="amado_product_area section-padding-100">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="product-topbar d-xl-flex align-items-end justify-content-between">
+                            <!-- Total Products -->
+                            <total></total>
+                            <!-- Sorting -->
+                            <sorting></sorting>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <product1></product1>
+                        </div>
+                    </div>
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <product2></product2>
+                        </div>
+                    </div>
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <product3></product3>
+                        </div>
+                    </div>
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <product4></product4>
+                        </div>
+                    </div>
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <product5></product5>
+                        </div>
+                    </div>
+
+                    <!-- Single Product Area -->
+                    <div class="col-12 col-sm-6 col-md-12 col-xl-6">
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <product6></product6>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Pagination -->
+                       <trang></trang>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
@@ -168,19 +235,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
-    <script src="/Font_end/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="/Font_end/js/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="/Font_end/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="/Font_end/js/plugins.js"></script>
+    <script src="js/plugins.js"></script>
     <!-- Active js -->
-    <script src="/Font_end/js/active.js"></script>
-    <!-- AngularJS -->
+    <script src="js/active.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
     <script src="/Font_end/component/dircetive.js"></script>
+
 </body>
 
 </html>

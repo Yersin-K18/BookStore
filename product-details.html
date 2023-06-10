@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Amado - Furniture Ecommerce Template | Home</title>
+    <title>Amado - Furniture Ecommerce Template | Product Details</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -22,7 +22,7 @@
 
 <body ng-app="myApp">
     <!-- Search Wrapper Area Start -->
-    <div class="search-wrapper section-padding-100">
+     <div class="search-wrapper section-padding-100">
         <div class="search-close">
            <iconsearch></iconsearch>
         </div>
@@ -63,57 +63,34 @@
         </header>
         <!-- Header Area End -->
 
-        <!-- Product Catagories Area Start -->
-        <div class="products-catagories-area clearfix">
-            <div class="amado-pro-catagory clearfix">
+        <!-- Product Details Area Start -->
+        <div class="single-product-area section-padding-100 clearfix">
+            <div class="container-fluid">
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                   <category1></category1>
+                <div class="row">
+                    <div class="col-12">
+                        <breadcrumb></breadcrumb>
+                    </div>
                 </div>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category2></category2>
-                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                       <singleproduct></singleproduct>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="single_product_desc">
+                            <!-- Product Meta Data -->
+                            <productdata></productdata>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category3></category3>
-                </div>
+                            <!-- Add to Cart Form -->
+                           <addtocart></addtocart>
 
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category4></category4>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category5></category5>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category6></category6>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category7></category7>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category8></category8>
-                </div>
-
-                <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix">
-                    <category9></category9>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Product Catagories Area End -->
+        <!-- Product Details Area End -->
     </div>
     <!-- ##### Main Content Wrapper End ##### -->
 
@@ -168,19 +145,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
-    <script src="/Font_end/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="/Font_end/js/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="/Font_end/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="/Font_end/js/plugins.js"></script>
+    <script src="js/plugins.js"></script>
     <!-- Active js -->
-    <script src="/Font_end/js/active.js"></script>
-    <!-- AngularJS -->
+    <script src="js/active.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
-    <script src="/Font_end/component/dircetive.js"></script>
+    <script src="/Font_end/component/dircetive.js"></script> 
 </body>
 
 </html>
