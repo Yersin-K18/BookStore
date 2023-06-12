@@ -1,9 +1,3 @@
-import angular from 'angular';
-
-var app = angular.module('myApp', []);
-
-app.directive()
-
 /*price range*/
 
 $('#sl2').slider();

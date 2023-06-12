@@ -1,42 +1,43 @@
 var app = angular.module('myApp', ['ngRoute']);
+
 //router
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
   $routeProvider
-  .when("/", {
-    templateUrl : "components/Main/indexmain.html"
-  })
-  //indexshop
-  .when("/shop", {
-    templateUrl : "components/Main/indexshop.html"
-  })
-  //productdetails
-  .when("/productdetail", {
-    templateUrl : "components/Main/productdetails.html"
-  })
-  //checkout
-  .when("/checkout", {
-    templateUrl : "components/Main/checkout.html"
-  })
-  //cart
-  .when("/cart", {
-    templateUrl : "components/Main/Cart.html",
-  })
-  //login
-  .when("/login", {
-    templateUrl : "components/Main/login.html",
-  })
-  //blog
-  .when("/blog", {
-    templateUrl : "components/Main/blog.html",
-  })
-  //blogsingle
-  .when("/blogsingle", {
-    templateUrl : "components/Main/blog_single.html",
-  })
-  //error
-  .when("/error", {
-    templateUrl : "components/Main/error.html",
-  })
+    .when("/", {
+      templateUrl: "components/Main/indexmain.html"
+    })
+    //indexshop
+    .when("/shop", {
+      templateUrl: "components/Main/indexshop.html"
+    })
+    //productdetails
+    .when("/productdetail", {
+      templateUrl: "components/Main/productdetails.html"
+    })
+    //checkout
+    .when("/checkout", {
+      templateUrl: "components/Main/checkout.html"
+    })
+    //cart
+    .when("/cart", {
+      templateUrl: "components/Main/Cart.html",
+    })
+    //login
+    .when("/login", {
+      templateUrl: "components/Main/login.html",
+    })
+    //blog
+    .when("/blog", {
+      templateUrl: "components/Main/blog.html",
+    })
+    //blogsingle
+    .when("/blogsingle", {
+      templateUrl: "components/Main/blog_single.html",
+    })
+    //error
+    .when("/error", {
+      templateUrl: "components/Main/error.html",
+    })
 });
 
 
